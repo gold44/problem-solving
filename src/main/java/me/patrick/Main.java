@@ -1,4 +1,4 @@
-package ProblemSolving;
+package me.patrick;
 
 /**
  * Hello world!
