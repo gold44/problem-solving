@@ -23,12 +23,12 @@ public class CapturingStones extends Solution {
 
 
     private void setupTestData() {
-        char[] inputs = givenInput.toCharArray();
+        char[] input = givenInput.toCharArray();
 
         System.out.println("Sample Data:");
         for (int x = 0; x < gridNumber; x++) {
             for (int y = 0; y < gridNumber; y++) {
-                boardGrid[x][y] = Integer.valueOf(String.valueOf(inputs[x * gridNumber + y]));
+                boardGrid[x][y] = Integer.valueOf(String.valueOf(input[x * gridNumber + y]));
                 System.out.printf("%d ", boardGrid[x][y]);
             }
             System.out.println();
@@ -38,7 +38,6 @@ public class CapturingStones extends Solution {
 
     private String solutionFirstAttempt() {
         Set<String> numberOfWhiteStones = new HashSet();
-        System.out.println("Sample Data:");
 
         for (int y = 0; y < gridNumber; y++) {
             for (int x = 0; x < gridNumber; x++) {
@@ -102,7 +101,8 @@ public class CapturingStones extends Solution {
     }
 
 
-    @Override protected String execute() {
+    @Override
+    protected String execute() {
         setupTestData();
         return solutionBetter();
     }

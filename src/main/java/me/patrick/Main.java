@@ -1,9 +1,6 @@
 package me.patrick;
 
-import me.patrick.problems.CambridgeEffect;
-import me.patrick.problems.CapturingStones;
-import me.patrick.problems.DepthOfLake;
-import me.patrick.problems.ExcelSheetColumnNumber;
+import me.patrick.problems.*;
 
 /**
  * Hello world!
@@ -35,9 +32,9 @@ public class Main {
         //                            "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111110000000000001110111000000000000111011110000000000011101111000000000000000100000000000000000010000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
         //                .printAnswer();
 
-        new DepthOfLake(3, "GWGWWWGWG").printAnswer();
-        new DepthOfLake(8, "GGGGGGGGGGGWGGGGGGWWWWGGGWWWWWWWWWWWWWWWWWGWGGWWGGGGGWGGGGWGGGGG").printAnswer();
-        new DepthOfLake(5, "WWWWWWWWWWWWWWWWWWWWWWWWW").printAnswer();
+        //        new DepthOfLake(3, "GWGWWWGWG").printAnswer();
+        //        new DepthOfLake(8, "GGGGGGGGGGGWGGGGGGWWWWGGGWWWWWWWWWWWWWWWWWGWGGWWGGGGGWGGGGWGGGGG").printAnswer();
+        //        new DepthOfLake(5, "WWWWWWWWWWWWWWWWWWWWWWWWW").printAnswer();
 
     }
 }
