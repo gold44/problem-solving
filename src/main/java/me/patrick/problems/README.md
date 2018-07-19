@@ -1,5 +1,5 @@
 # Overview
-Some details and information for each problem set and hopefully it helps to provide better understanding when studying the code. 
+This document provide the additional details and information for each problem set and hopefully it helps to provide better understanding when studying the code. 
 
 > **Disclaimer**: The information provided below might be vague and confusing sometimes, there's nothing I can help here.
 What provided is based on the best I can remember and of course most of the time, what was given initially from the test was really confusing too.   
@@ -86,7 +86,7 @@ N (the number board grids / cells) and a block of 0 & 1 (to construct the board 
 # Depth Of The Lake
 This problem set is surrounding the calculation of depth / weightage of an area.
 
-## Rules
+## Rules & Guides
 The plot of area to be calculated is a Lake. An area will be tabulated as a grid with multiple cells in it.
 Each cell is either labelled with **W** (Water, the lake) or **G** (Anything other than the lake, like the ground). 
 **Find out the sum of all cells’ depth** in the lake.
