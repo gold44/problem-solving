@@ -1,13 +1,25 @@
 package me.patrick;
 
-import me.patrick.problems.*;
-
 /**
- * Hello world!
+ * Might be the same as Samsung Excel Problem
+ *  https://www.mitre.org/sites/default/files/pdf/francoeur_algorithms.pdf
+ * https://interviewbubble.com/samsung-interview-questions-asked-in-samsung-3-hour-test-set-2/
+ * https://interviewbubble.com/how-to-prepare-for-samsung-3-hour-test-samsung-interview-preparation-guide/
+ * https://github.com/rishabh115/Interview-Questions/tree/master/Samsung
+ * https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/
+ * https://www.geeksforgeeks.org/samsung-interview-experience-set-11-on-campus-for-samsung-rd/
+ * https://www.geeksforgeeks.org/samsung-interview-experience-r-d-noida-off-campus/
+ * http://a2zdramaforfree.blogspot.com/2018/01/how-to-prepare-for-samsung-3-hour-test.html
+ * https://app.codility.com/programmers/lessons/17-dynamic_programming/
+ * https://github.com/wishyouhappy/Algorithm/tree/master/leetcode#168-excel-sheet-column-title
  */
 public class Main {
-    public static void main(String[] args) {
-
+    public static void main(final String[] args) {
+        final float abc = 20/3;
+        final double xyz = 20/3;
+        //String.format(“%.5f”, val)
+        System.out.println("float=" + String.format("%.5f", 20/3));
+        System.out.println("double=" + String.format("%.5f", 20/3));
         //        new ExcelSheetColumnNumber(0).printAnswer();
         //        new ExcelSheetColumnNumber(1).printAnswer();
         //        new ExcelSheetColumnNumber(26).printAnswer();
